@@ -108,16 +108,6 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     }
 
-/*     Widget textSection = Container(
-      padding: const EdgeInsets.all(30),
-      child: Text(
-        '49 허 1769'
-        '                   2020 / 12 / 02  '
-        '  13  :  30  ',
-        softWrap: true,
-      ),
-    ); */
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -142,21 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: _buildBody(context),
           )
         ],
-      )
-          //left: true,
-          //right: true,
-          //top: true,
-          //bottom: true,
-          //minimum: EdgeInsets.zero,
-          //padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
-          //child: Column(
-          //  children: [_buildBody(context)],
-          //)
-
-          //imageSection,
-          //titleSection,
-          //: _buildBody(context),
-          ),
+      )),
       floatingActionButton: FloatingActionButton(
         onPressed: getImage,
         tooltip: 'Increment',

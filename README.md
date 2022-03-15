@@ -1,4 +1,4 @@
-# camerawidjet
+# Handheld License-Plate Recognition system
 
 A new Flutter project.
 
